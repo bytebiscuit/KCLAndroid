@@ -45,7 +45,7 @@ public class KCLMain extends Activity {
             // Execute HTTP Post Request
             HttpResponse response = httpclient.execute(httppost);
             Log.e("fatos","" + response.getStatusLine());
-            
+	    // Edited the KCLMain.java file            
             
         } catch (ClientProtocolException e) {
             // TODO Auto-generated catch block
